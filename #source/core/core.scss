@@ -1,0 +1,23 @@
+$font-rc: 'Roboto Condensed', sans-serif;
+$font-r: 'Roboto', sans-serif;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+}

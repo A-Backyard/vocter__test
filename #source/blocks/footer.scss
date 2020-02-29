@@ -1,0 +1,64 @@
+.footer {
+  height: 200px;
+  background: url("../media/Logo-footer.png") 100% 100%;
+  background-size: cover;
+}
+
+.footer__title {
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-family: $font-rc;
+  font-size: 28px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0;
+}
+
+.footer__nav {
+  nav {
+    text-align: center;
+    background: none;
+
+    ul {
+      float: none;
+      text-align: center;
+
+      li {
+        text-align: center;
+        padding-right: 7px;
+        margin-right: 7px;
+        font-style: italic;
+
+        &:not(:last-child) {
+          border-right: 1px solid #ffffff;
+        }
+
+        a {
+          line-height: 22px;
+          color: #ffffff;
+          font-family: $font-rc;
+          font-size: 25px;
+          font-weight: 400;
+          font-style: italic;
+          letter-spacing: 0;
+
+          &:hover {
+            color: #389ef2;
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer__copyright {
+  text-align: center;
+  color: #ffffff;
+  font-family: $font-rc;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0;
+}
